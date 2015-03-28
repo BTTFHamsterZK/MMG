@@ -1,0 +1,66 @@
+name: MMG
+version: 1.0
+description: Core
+author: BTTFHamster
+main: me.BTTFHamster.MMG.Core.Core
+depend: [Vault]
+softdepend: [PermissionsEx, NoCheatPlus]
+loadbefore: [PermissionsEx]
+commands:
+  ping:
+    description: Ping yourself, or others!
+  fly:
+    description: Fly like a birdy
+  afk:
+    description: RazerAFK
+  Speed:
+    description: Set your speed!
+  mmg:
+    description: Plugin Descriptions!
+  player:
+    description: Shows player info!
+  heal:
+    description: Heal yourself!
+  lag:
+    description: Debug lag!
+  msg:
+    description: Message people!
+  broadcast:
+    description: Broadcast messages!
+  maintenance:
+    description: Maintenance mode :P
+  alerts:
+    description: Enable/Disable alerts!
+  spy:
+    description: Spy on players messages!
+  clear:
+    description: Clears the chat!
+  vanish:
+    description: vanish from other players!
+  v: 
+    description: Vanish from other players!
+  version:
+    description: check the version of the server!
+  head:
+    description: Obtain a players head.
+  stats: 
+    description: Check your stats!
+  version:
+    description: Server version stuff
+  hub:
+    description: Teleport to the hub!
+permissions:
+  MMG.Testing:
+    children:
+      MMG.Alerts: true
+      MMG.AFK: true
+      MMG.Fly: true
+      MMG.Speed: true
+      MMG.Heal: true
+      MMG.Broadcast: true
+      MMG.Maintenance: true
+      MMG.Spy: true
+      MMG.Clear: true
+      MMG.Vanish: true
+      MMG.Heads: true
+      MMG.Color: true
