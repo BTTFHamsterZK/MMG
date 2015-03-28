@@ -1,0 +1,66 @@
+# Welcome to the MMG Config!
+   #############################
+   ###      Title Editor     ###
+   #############################
+  # Follows basic colour codes, http://minecraft.gamepedia.com/Formatting_codes
+  # Let me know if you want any variables!
+  # You cannot leave a single line blank!
+# First Join-Message 
+join_pop_up_header_firstjoin: "&bWelcome!"
+join_pop_up_footer_firstjoin: "&bTo Medieval Minigames!"
+# Join message, when the player has logged in before!
+ # Top, Big message
+join_pop_up_header: "&bWelcome!"
+ # Lower, Small message 
+join_pop_up_footer: "&bTo Medieval Minigames!"
+
+   #############################
+   ###   ScoreBoard Editor   ###
+   #############################
+ # Follows basic colour codes, http://minecraft.gamepedia.com/Formatting_codes
+ # Variables aviable are: {ONLINE-PLAYERS}, {MAX-PLAYERS}, Let me know what else you want. 
+ # To delete a line, simply leave it blank, with it literally containing nothing. 
+ # To leave a line blank, use " ".
+scoreboardTitle: "&lMMG"
+scoreboardLine1: "&c&lWelcome &r&7to &bMMG!"  # Basic.
+scoreboardLine2: " " # This line will appear blank.
+scoreboardLine3: "&cOnline Players &7&l>&r&b {ONLINE-PLAYERS}"  # This line will show online players.
+scoreboardLine4:  # This line won't show up, since there is no quotations.
+scoreboardLine5:  # This one won't either.
+   #############################
+   ###     Tablist Editor    ###
+   #############################
+ # Follows basic colour codes, http://minecraft.gamepedia.com/Formatting_codes
+ # {PLAYER} = Player name
+  # Default
+default_tablist: "&8{PLAYER}"
+default_displayname: "&8{PLAYER}"
+  # Iron Donor
+irondonor_tablist: "&7{PLAYER}" 
+irondonor_displayname: "&7{PLAYER}"
+  # Gold Donor
+golddonor_tablist: "&6{PLAYER}"
+golddonor_displayname: "&6{PLAYER}"
+  # Emerald Donor
+emeralddonor_tablist: "&a{PLAYER}"
+emeralddonor_displayname: "&a{PLAYER}"
+  # VIP
+vip_tablist: "&5&lVIP &r{PLAYER}"
+vip_displayname: "&5[&lVIP&r&5] "
+  # Mod 
+mod_tablist: "&b&lMOD&r {PLAYER}"
+mod_displayname: "&b[&lMOD&r&b] "
+  # Admin
+admin_tablist: "&c&lADMIN {PLAYER}"
+admin_displayname: "&c[&lADMIN&r&c] "
+  # Developer
+developer_tablist: "&a&lDEV&r {PLAYER}"
+developer_displayname: "&a[&lDEV&r&a] "
+  # Owner/King
+owner_tablist: "&4&lKING&r {PLAYER}"
+owner_displayname: "&4[&lKING&r&4] "
+
+###########################
+#  VERSION: DO NOT TOUCH  #
+###########################
+version: 1.6
